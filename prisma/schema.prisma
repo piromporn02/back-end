@@ -14,7 +14,6 @@ model User {
     f_name          String
     l_name          String
     email           String     @unique
-    addresses       String?
     password        String
     orders          Orders[]
 }
